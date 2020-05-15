@@ -1,0 +1,27 @@
+body {background: #EEEEEE !important;}
+            
+.btn-primary {
+    color: #fff;
+    background-color: rgb(70, 35, 168);
+    border-color: rgb(70, 35, 168); 
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(17, 97, 201);
+    border-color: #342672;
+}
+input.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(70, 35, 168);
+    opacity: .2; /* Firefox */
+}
+
+input.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(70, 35, 168);
+    opacity: .2;
+}
+
+input.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(70, 35, 168);
+    opacity: .2;
+}
