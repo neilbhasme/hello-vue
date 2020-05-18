@@ -1,5 +1,19 @@
+
+Vue.component('employee-list', {  
+    props: ['emps'], 
+    template:
+        `<u1>
+        <li v-for="emp in emps">{{emp.name}}</li>
+        </u1>`
+})
+
+//import employeelist from './nrbvue'
 var app = new Vue({
-  el: '#root',
+    el: '#root',
+
+    component: [
+    'employee-list'
+    ],
 	data: {
         emps: [
             { name: 'Teija'},
